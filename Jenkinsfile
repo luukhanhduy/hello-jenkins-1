@@ -1,7 +1,7 @@
 pipeline {
     agent any {
         stages {
-            stage('Clone') {
+            stage('clone') {
                 steps {
                     git 'https://github.com/luukhanhduy/hello-jenkins-1.git'
                 }
